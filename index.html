@@ -13,7 +13,7 @@
     </style>
   </head>
   <body>
-    <ul>
+    <ul class="contact">
         <li>
             <a href="https://call.whatsapp.com/video/3CA8tPn8q0QTngCZIVttAX">
                 <img src="./assets/mbroutin.jpg" width="128" height="128" />
@@ -21,18 +21,22 @@
             </a>
         </li>
     </ul>
+
+    <blockquote>
+        Plus d'info sur <a href="https://faq.whatsapp.com/456694046556486/?locale=fr_FR&cms_platform=android&cms_id=456694046556486&draft=false">les liens partagés</a>
+    </blockquote>
   </body>
 
   <style>
 
-    ul {
+    .contact {
         list-style: none;
         padding: 2rem;
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
     }
-    a {
+    .contact a {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -42,9 +46,16 @@
         color: black;
     }
 
-    a > span {
+    .contact span {
         font-weight: bold;
         font-size: 1.25rem;
+    }
+    blockquote {
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        background-color: aquamarine;
+        display: table;
+        margin: 0 auto;
     }
 
     img {
